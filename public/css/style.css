@@ -1,0 +1,420 @@
+body {
+    background: #efefef;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #5181b8;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* wrapper-form - common styles */
+
+.wrapper-form {
+    padding: 25px 16px 25px 10px;
+    font-weight: 400;
+    overflow: hidden;
+    width: 350px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    margin: auto;
+    margin-top: 300px;
+}
+
+.wrapper-form label {
+    color: #777;
+    font-size: 17px;
+}
+
+.wrapper-form form .input,
+.wrapper-form input[type=text],
+.wrapper-form input[type=password],
+.wrapper-form input[type=e] {
+    background: #fbfbfb;
+    font-size: 15px;
+    line-height: 1;
+    width: 100%;
+    height: 25px;
+    padding: 3px;
+    margin: 0 6px 5px 0;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    color: #777;
+    transition: 0.2s
+}
+
+.wrapper-form form .input:focus {
+    border: 1px solid #5181b8;
+    box-shadow: 0 0 5px 0 rgba(35, 117, 194, 0.75);
+}
+
+.wrapper-form form .input:hover {
+    border: 1px solid #5181b8;
+    box-shadow: 0 0 5px 0 rgba(35, 117, 194, 0.75);
+    transition: 0.2s
+}
+
+.title-text {
+    color: #777;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    border: 1px dashed #777;
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+
+.title-text h1 {
+    font-size: 30px;
+}
+
+.wrapper-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-button button {
+    border: solid 1px #5181b8;
+    background: #5181b8;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.wrapper-button button:hover {
+    background: #608dc0;
+    transition: 0.4s;
+}
+
+.button {
+    border: solid 1px #5181b8;
+    background: #5181b8;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background: #608dc0;
+    transition: 0.4s;
+}
+
+.error {
+    font-weight: 300;
+    color: red;
+}
+
+.wrapper-menu-text {
+    text-align: center;
+}
+
+.main-page {
+    text-decoration: none;
+    color: #5181b8;
+    transition: 0.5s;
+}
+
+.main-page:hover {
+    color: #6d95c4;
+    transition: 0.5s
+}
+
+
+/* login form */
+
+.form-login {
+    margin: 170px auto 0;
+}
+
+#login {
+    width: 320px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.form-main-page {
+    width: 450px;
+}
+
+.main-page {
+    width: 430px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+
+/* welcome forms */
+
+#welcome {
+    width: 500px;
+    padding: 30px;
+    background: #fff;
+    margin: 160px auto 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+}
+
+
+/* signup */
+
+#signup {
+    width: 320px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.signup-text {
+    font-size: 14px;
+    margin-top: 26px;
+    color: #777;
+}
+
+.signup-text a {
+    text-decoration: none;
+    color: #5181b8;
+    transition: 0.5s
+}
+
+.signup-text a:hover {
+    color: #6d95c4;
+    transition: 0.5s
+}
+
+/* login */
+
+.login-text {
+    font-size: 14px;
+    margin-top: 26px;
+    color: #777;
+}
+
+.login-text a {
+    text-decoration: none;
+    color: #5181b8;
+    transition: 0.5s
+}
+
+.login-text a:hover {
+    color: #6d95c4;
+    transition: 0.5s
+}
+
+/* intropage */
+
+.intro-text {
+    font-size: 15px;
+    margin-top: 26px;
+    color: #777;
+    text-align: center;
+}
+
+.intro-text a {
+    text-decoration: none;
+    color: #5181b8;
+    transition: 0.5s
+}
+
+.intro-text a:hover {
+    color: #6d95c4;
+    transition: 0.5s
+}
+
+.title-text span {
+    color: #5181b8;
+}
+
+
+
+
+
+
+
+/* ======================================================== COMMENTS ==================================================== */
+
+
+/* Title */
+
+.wrapper-title h2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #777;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.wrapper-comments {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #777;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+
+/* comment_form */
+
+.form-control:focus {
+    border: 1px solid #5181b8;
+    box-shadow: 0 0 2px 0 rgba(35, 117, 194, 0.75);
+}
+
+.form-control:hover {
+    border: 1px solid #5181b8;
+    box-shadow: 0 0 2px 0 rgba(35, 117, 194, 0.75);
+    transition: 0.5s;
+}
+
+.btn-danger {
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.7s;
+    outline: none;
+    font-size: 15px;
+}
+
+.btn-send {
+    border: solid 1px #5181b8;
+    background: #5181b8;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.7s;
+    outline: none;
+    font-size: 15px;
+}
+
+.btn-send:hover {
+    background: #05448b;
+    transition: 0.7s;
+    outline: none;
+}
+
+
+/* display_comment */
+
+.panel-default {
+    background-color: white;
+    border: 1px solid #d7d8db;
+    padding-left: 10px;
+    padding-right: 55px;
+    border-radius: 10px;
+}
+
+.panel-heading {
+    background: #fff !important;
+}
+
+.panel-footer {
+    background: #fff !important;
+}
+
+.reply {
+    border: solid 1px #5181b8;
+    background: #5181b8;
+    color: #fff;
+    padding: 4px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+
+.reply:hover {
+    background: #05448b;
+    transition: 0.4s;
+}
+
+.panel-default {
+    font-size: 15px;
+}
+
+.text-success,
+.text-danger {
+    font-size: 20px;
+}
+
+.comment-msg-error {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 350px;
+}
+
+.comment-msg-error a {
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.comment-msg-error a:hover {
+    color: #88a7ca;
+    transition: 0.4s;
+}
+
+.wrapper-title h3 a {
+    text-decoration: none;
+}
+
+.level-2 {
+    margin-left: 100px;
+}
+
+.level-3 {
+    margin-left: 200px;
+}
+
+.level-4 {
+    margin-left: 300px;
+}
+
+.level-5 {
+    margin-left: 400px;
+}
+
+.level-5 button {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper-panel {
+    width: 100%;
+}
+
+.img-block {
+    width: 50px;
+    background-color: gainsboro;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.panel {
+    display: flex;
+}
+
+.wrapper-panel hr {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+
+.status {
+    margin-top: 10px;
+}
