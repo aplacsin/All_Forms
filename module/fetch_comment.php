@@ -33,7 +33,7 @@ echo $output;
 
 function get_reply_comment($connection, $parent_id = 0, $marginleft = 0, $level = 0)
 {
-    $query     = "SELECT * FROM tbl_comments WHERE parent_id = '" . $parent_id . "'";
+    $query     = "SELECT * FROM tbl_comments WHERE parent_id = '" . $parent_id . "' ORDER BY id ASC";
     $output    = '';
     $statement = $connection->prepare($query);
     $statement->execute();
@@ -44,7 +44,10 @@ function get_reply_comment($connection, $parent_id = 0, $marginleft = 0, $level 
     if ($parent_id == 0) {
         $marginleft = 0;
         $level = 0;
-    } else {
+    } elseif ($level > 5) {
+        $marginleft = 600;
+    }
+    else {
         $marginleft = $marginleft + 100;
         $level = $level + 1;
     }    

@@ -39,10 +39,7 @@ $(document).ready(function () {
 
     $(document).on('click', '.reply', function () {
         let comment_id = $(this).attr("id");
-        parentID = $(this).attr("id");
-        level = $(this);
-        level = level.parent().parent().parent().parent();
-        level = level[0].classList[2];
+        parentID = $(this).attr("id");        
         $('#comment_id_reply').val(comment_id);
         $('#' + comment_id).parent().append($('#comment_form_reply')); /* adding a form for a child comment */
 
